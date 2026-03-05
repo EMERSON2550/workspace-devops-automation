@@ -1,0 +1,15 @@
+nome: Hello Github Actions
+
+on:
+  push:
+    branche: 
+      - main
+
+jobs: 
+  say--Hello:
+    say-Hello:
+    run-on: ubunto-latest 
+    steps:
+      - name: Exibir mesagem no log 
+        run: echo "Github Actions funcionando com sucesso!"
+            
